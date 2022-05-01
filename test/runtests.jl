@@ -1,6 +1,9 @@
-using StructStacks
+using StackStructs
 using Test
+using MacroTools
 
-@testset "StructStacks.jl" begin
+@testset "StackStructs.jl" begin
     # Write your tests here.
+    include("vector.jl")
+    include("stack.jl")
 end

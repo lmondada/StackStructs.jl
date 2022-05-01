@@ -1,7 +1,11 @@
-name = "StructStacks"
+name = "StackStructs"
 uuid = "319c5032-975e-4b74-bc8e-d932c7c9c8ac"
 authors = ["Luca Mondada"]
 version = "0.1.0"
+
+[deps]
+MacroTools = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
+TreeView = "39424ebd-4cf3-5550-a685-96706a953f40"
 
 [compat]
 julia = "1"
